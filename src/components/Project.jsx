@@ -14,7 +14,7 @@ const Projects = ({ title, src, description }) => {
   return (
     <div className=" my-1">
       <div
-        className="flex justify-between text-3xl font-bold cursor-pointer px-12 bg-gradient-to-r from-sky-500 to-indigo-500  text-white my-6"
+        className="flex justify-between text-2xl md:text-3xl font-bold cursor-pointer px-12 bg-gradient-to-r from-sky-500 to-indigo-500  text-white my-6"
         onClick={handleClick}
       >
         <h2 className="my-6">{title}</h2>

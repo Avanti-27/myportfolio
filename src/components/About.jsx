@@ -1,14 +1,16 @@
 const About = () => {
   return (
-    <div className="p-5 m-12 text-justify mb-40" id="about">
-      <h1 className="text-6xl mb-10">About Me</h1>
+    <div className=" text-justify md:mb-40 md:p-5 m-12" id="about">
+      <h1 className="text-4xl text-center p-1 m-4 md:text-6xl md:mb-10 md:text-left">
+        About Me
+      </h1>
       <div>
         <img
           src="https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages.png?v=1619126283"
           alt=""
-          className="float-right w-[600px] h-[380px]"
+          className="w-96 h-72 mx-auto p-1 m-2 md:float-right md:w-[600px] md:h-[380px]"
         />
-        <p className="text-[22px] w-6/12 text-justify font-serif">
+        <p className=" md:text-[22px] text-justify font-serif md:text-left p-5">
           I am an experienced IT professional with a solid background in both
           SAP modules and front-end development technologies.With 2 years and 10
           months of experience at Accenture, I have had the opportunity to work

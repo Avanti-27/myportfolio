@@ -6,7 +6,10 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div>
-      <h1 className="text-6xl mx-12 my-20 text-center" id="projects">
+      <h1
+        className="text-4xl my-10 md:text-6xl mx-12 md:my-20 text-center"
+        id="projects"
+      >
         Projects
       </h1>
       <Project
